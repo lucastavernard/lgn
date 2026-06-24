@@ -24,6 +24,13 @@ const projects = [
     category: 'Energia Ininterrupta',
     image: '/gerat.png',
     link: 'https://gerat-site.vercel.app/'
+  },
+  {
+    id: 4,
+    title: 'ADCI Templo Central',
+    category: 'Site Institucional',
+    image: '/adci.png',
+    link: 'https://adcintemplocentral.com.br/'
   }
 ];
 
