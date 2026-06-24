@@ -5,9 +5,7 @@ export const Footer = () => {
     <footer className="bg-background py-12 border-t border-border">
       <div className="container mx-auto px-6 flex flex-col md:flex-row items-center justify-between gap-6">
         <div className="flex items-center gap-2">
-          <div className="w-6 h-6 bg-primary rounded-md flex items-center justify-center">
-            <span className="text-white font-bold text-xs leading-none">L</span>
-          </div>
+          <img src="/logolgn.png" alt="LGN Soluções Tech Logo" className="h-8 w-auto object-contain" />
           <span className="font-semibold text-lg tracking-tight">LGN Soluções Tech</span>
         </div>
         

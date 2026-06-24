@@ -5,9 +5,7 @@ export const Navbar = () => {
     <nav className="fixed top-0 left-0 right-0 z-50 bg-background/80 backdrop-blur-md border-b border-border/50">
       <div className="container mx-auto px-6 h-20 flex items-center justify-between">
         <a href="#" className="flex items-center gap-2">
-          <div className="w-8 h-8 bg-primary rounded-lg flex items-center justify-center">
-            <span className="text-white font-bold text-lg leading-none">L</span>
-          </div>
+          <img src="/logolgn.png" alt="LGN Soluções Tech Logo" className="h-10 w-auto object-contain" />
           <span className="font-semibold text-xl tracking-tight hidden sm:block">LGN Soluções Tech</span>
         </a>
 
