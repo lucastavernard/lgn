@@ -5,7 +5,7 @@ export const Navbar = () => {
     <nav className="fixed top-0 left-0 right-0 z-50 glass">
       <div className="container mx-auto px-6 h-20 flex items-center justify-between">
         <a href="#" className="flex items-center gap-2">
-          <img src="/logolgn.png" alt="LGN Soluções Tech Logo" className="h-10 w-auto object-contain" />
+          <img src="/logo.png" alt="LGN Soluções Tech Logo" className="h-10 w-auto object-contain" />
           <span className="font-display font-semibold text-xl tracking-tight hidden sm:block">LGN Soluções Tech</span>
         </a>
 

@@ -11,23 +11,13 @@ export const Hero = () => {
 
       <div className="container mx-auto px-6 relative z-10">
         <div className="max-w-4xl mx-auto text-center">
-          <motion.div
-            initial={{ opacity: 0, y: 20 }}
-            animate={{ opacity: 1, y: 0 }}
-            transition={{ duration: 0.6 }}
-          >
-            <span className="inline-block py-1 px-3 rounded-full bg-primary/10 text-primary border border-primary/20 text-sm font-medium mb-6">
-              LGN Soluções Tech
-            </span>
-          </motion.div>
-
           <motion.h1
             className="font-display text-5xl md:text-7xl font-bold tracking-tight text-balance mb-8"
             initial={{ opacity: 0, y: 20 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.6, delay: 0.1 }}
           >
-            Transforme visitantes em clientes com um site de <span className="text-transparent bg-clip-text bg-gradient-to-r from-primary to-accent">alta performance</span>.
+            Transforme visitantes em clientes com um site de <span className="text-transparent bg-clip-text bg-gradient-to-r from-primary to-accent">alta performance</span>
           </motion.h1>
 
           <motion.p
