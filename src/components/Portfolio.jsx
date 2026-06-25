@@ -6,10 +6,10 @@ import { useCallback } from 'react';
 const projects = [
   {
     id: 1,
-    title: 'Clínica Freire',
-    category: 'Odontologia Premium',
-    image: '/clinica.png',
-    link: 'https://clinicafreire.netlify.app/'
+    title: 'Victor Lino Advocacia',
+    category: 'Advocacia Premium',
+    image: '/victor.png',
+    link: 'https://www.victorlinoadv.com.br/'
   },
   {
     id: 2,
