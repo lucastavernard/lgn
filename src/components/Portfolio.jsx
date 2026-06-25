@@ -50,7 +50,7 @@ export const Portfolio = () => {
       <div className="container mx-auto px-6 mb-12">
         <div className="flex flex-col md:flex-row md:items-end justify-between gap-6">
           <div className="max-w-2xl">
-            <h2 className="text-3xl md:text-5xl font-bold mb-4">Projetos Recentes</h2>
+            <h2 className="text-3xl md:text-5xl font-bold font-display mb-4">Projetos Recentes</h2>
             <p className="text-textMuted text-lg">
               Confira alguns dos trabalhos que desenvolvemos. Cada projeto é único e focado em gerar o máximo de resultados para nossos clientes.
             </p>
@@ -90,11 +90,11 @@ export const Portfolio = () => {
                   alt={project.title} 
                   className="w-full h-full object-cover object-top transition-transform duration-700 group-hover:scale-105 opacity-80 group-hover:opacity-100"
                 />
-                <div className="absolute inset-0 bg-gradient-to-t from-background/90 via-background/20 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex flex-col justify-end p-8">
-                  <span className="text-primary font-medium mb-2">{project.category}</span>
+                <div className="absolute inset-0 bg-gradient-to-t from-background via-background/40 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-500 flex flex-col justify-end p-8">
+                  <span className="text-accent font-medium mb-2 tracking-wide text-sm uppercase">{project.category}</span>
                   <div className="flex items-center justify-between">
-                    <h3 className="text-2xl font-bold text-white">{project.title}</h3>
-                    <a href={project.link} target="_blank" rel="noopener noreferrer" className="w-10 h-10 rounded-full bg-primary flex items-center justify-center text-white transform translate-y-4 opacity-0 group-hover:translate-y-0 group-hover:opacity-100 transition-all duration-300">
+                    <h3 className="text-2xl font-bold text-white font-display">{project.title}</h3>
+                    <a href={project.link} target="_blank" rel="noopener noreferrer" className="w-12 h-12 rounded-full bg-white/10 backdrop-blur-md border border-white/20 hover:bg-white/20 flex items-center justify-center text-white transform translate-y-4 opacity-0 group-hover:translate-y-0 group-hover:opacity-100 transition-all duration-500">
                       <ExternalLink className="w-5 h-5" />
                     </a>
                   </div>

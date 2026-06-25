@@ -5,8 +5,9 @@ import { ArrowRight } from 'lucide-react';
 export const Hero = () => {
   return (
     <section className="relative pt-32 pb-20 md:pt-48 md:pb-32 overflow-hidden">
-      {/* Background Glow */}
-      <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[800px] h-[800px] bg-primary/20 blur-[120px] rounded-full pointer-events-none" />
+      {/* Background Glows */}
+      <div className="absolute top-1/4 -left-10 w-[500px] h-[500px] bg-primary/30 blur-[120px] rounded-full pointer-events-none mix-blend-screen animate-float" />
+      <div className="absolute bottom-1/4 -right-10 w-[600px] h-[600px] bg-accent/20 blur-[150px] rounded-full pointer-events-none mix-blend-screen animate-slow-spin" />
 
       <div className="container mx-auto px-6 relative z-10">
         <div className="max-w-4xl mx-auto text-center">
@@ -21,12 +22,12 @@ export const Hero = () => {
           </motion.div>
 
           <motion.h1
-            className="text-5xl md:text-7xl font-bold tracking-tight text-balance mb-8"
+            className="font-display text-5xl md:text-7xl font-bold tracking-tight text-balance mb-8"
             initial={{ opacity: 0, y: 20 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.6, delay: 0.1 }}
           >
-            Transforme visitantes em clientes com um site de <span className="text-transparent bg-clip-text bg-gradient-to-r from-primary to-blue-400">alta performance</span>.
+            Transforme visitantes em clientes com um site de <span className="text-transparent bg-clip-text bg-gradient-to-r from-primary to-accent">alta performance</span>.
           </motion.h1>
 
           <motion.p

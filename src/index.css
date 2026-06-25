@@ -20,20 +20,26 @@ body {
 
 /* Custom scrollbar for a premium feel */
 ::-webkit-scrollbar {
-  width: 10px;
+  width: 8px;
 }
 
 ::-webkit-scrollbar-track {
-  background: #09090b;
+  background: #050505;
 }
 
 ::-webkit-scrollbar-thumb {
-  background: #27272a;
-  border-radius: 5px;
+  background: #202024;
+  border-radius: 4px;
 }
 
 ::-webkit-scrollbar-thumb:hover {
   background: #3f3f46;
+}
+
+@layer utilities {
+  .glass {
+    @apply bg-surface/60 backdrop-blur-md border border-border/50 shadow-[0_4px_30px_rgba(0,0,0,0.1)];
+  }
 }
 
 /* Embla Carousel Styles */

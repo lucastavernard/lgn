@@ -6,7 +6,7 @@ export const Footer = () => {
       <div className="container mx-auto px-6 flex flex-col md:flex-row items-center justify-between gap-6">
         <div className="flex items-center gap-2">
           <img src="/logolgn.png" alt="LGN Soluções Tech Logo" className="h-8 w-auto object-contain" />
-          <span className="font-semibold text-lg tracking-tight">LGN Soluções Tech</span>
+          <span className="font-display font-semibold text-lg tracking-tight">LGN Soluções Tech</span>
         </div>
         
         <p className="text-textMuted text-sm">

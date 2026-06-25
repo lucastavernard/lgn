@@ -15,11 +15,11 @@ export const Pricing = () => {
   return (
     <section id="preco" className="py-24 bg-surface/30 border-y border-border relative overflow-hidden">
       {/* Background glow */}
-      <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[600px] h-[600px] bg-primary/10 blur-[100px] rounded-full pointer-events-none" />
+      <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[600px] h-[600px] bg-accent/10 blur-[100px] rounded-full pointer-events-none mix-blend-screen animate-slow-spin" />
 
       <div className="container mx-auto px-6 relative z-10">
         <div className="text-center max-w-3xl mx-auto mb-16">
-          <h2 className="text-3xl md:text-5xl font-bold mb-6">Pronto para dar o próximo passo?</h2>
+          <h2 className="text-3xl md:text-5xl font-bold font-display mb-6">Pronto para dar o próximo passo?</h2>
           <p className="text-textMuted text-lg">
             Tenha um site de alto nível pagando um preço justo. Sem surpresas e com qualidade garantida.
           </p>
@@ -32,8 +32,8 @@ export const Pricing = () => {
           transition={{ duration: 0.6 }}
           className="max-w-md mx-auto"
         >
-          <div className="bg-surface border border-border rounded-3xl p-8 relative overflow-hidden">
-            <div className="absolute top-0 right-0 bg-primary/10 text-primary font-medium px-4 py-1 rounded-bl-xl text-sm">
+          <div className="glass rounded-3xl p-8 relative overflow-hidden shadow-[0_0_50px_rgba(139,92,246,0.1)] hover:shadow-[0_0_60px_rgba(6,182,212,0.15)] transition-shadow duration-500">
+            <div className="absolute top-0 right-0 bg-gradient-to-r from-primary to-accent text-white font-medium px-5 py-1.5 rounded-bl-2xl text-sm shadow-lg">
               Mais Vendido
             </div>
             

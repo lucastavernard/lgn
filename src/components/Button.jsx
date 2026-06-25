@@ -4,9 +4,9 @@ export const Button = ({ children, href, className = '', variant = 'primary', ..
   const baseClasses = "inline-flex items-center justify-center font-medium rounded-full transition-colors duration-300 px-8 py-4 text-base shadow-lg hover:shadow-xl focus:outline-none focus:ring-2 focus:ring-primary focus:ring-offset-2 focus:ring-offset-background";
   
   const variants = {
-    primary: "bg-primary text-white hover:bg-primaryHover",
-    secondary: "bg-surface text-textMain border border-border hover:bg-border",
-    outline: "bg-transparent text-textMain border-2 border-border hover:border-primary hover:text-primary"
+    primary: "bg-gradient-to-r from-primary to-accent text-white shadow-[0_0_20px_rgba(139,92,246,0.3)] hover:shadow-[0_0_30px_rgba(6,182,212,0.5)] border border-white/10",
+    secondary: "glass hover:bg-white/5",
+    outline: "bg-transparent text-textMain border border-border hover:border-primary hover:text-primary hover:shadow-[0_0_20px_rgba(139,92,246,0.2)]"
   };
 
   const Component = motion.a;
