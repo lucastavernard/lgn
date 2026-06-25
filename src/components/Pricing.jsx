@@ -32,7 +32,7 @@ export const Pricing = () => {
           transition={{ duration: 0.6 }}
           className="max-w-md mx-auto"
         >
-          <div className="glass rounded-3xl p-8 relative overflow-hidden shadow-[0_0_50px_rgba(139,92,246,0.1)] hover:shadow-[0_0_60px_rgba(6,182,212,0.15)] transition-shadow duration-500">
+          <div className="bg-surface/60 backdrop-blur-md border border-border/50 rounded-3xl p-8 relative overflow-hidden shadow-[0_0_50px_rgba(139,92,246,0.1)] hover:shadow-[0_0_60px_rgba(6,182,212,0.15)] transition-shadow duration-500">
             <div className="absolute top-0 right-0 bg-gradient-to-r from-primary to-accent text-white font-medium px-5 py-1.5 rounded-bl-2xl text-sm shadow-lg">
               Mais Vendido
             </div>

@@ -2,7 +2,7 @@ import { Button } from './Button';
 
 export const Navbar = () => {
   return (
-    <nav className="fixed top-0 left-0 right-0 z-50 glass">
+    <nav className="fixed top-0 left-0 right-0 z-50 bg-surface/60 backdrop-blur-md border-b border-border/50">
       <div className="container mx-auto px-6 h-20 flex items-center justify-between">
         <a href="#" className="flex items-center gap-2">
           <img src="/logo.png" alt="LGN Soluções Tech Logo" className="h-10 w-auto object-contain" />

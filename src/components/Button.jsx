@@ -5,7 +5,7 @@ export const Button = ({ children, href, className = '', variant = 'primary', ..
   
   const variants = {
     primary: "bg-gradient-to-r from-primary to-accent text-white shadow-[0_0_20px_rgba(139,92,246,0.3)] hover:shadow-[0_0_30px_rgba(6,182,212,0.5)] border border-white/10",
-    secondary: "glass hover:bg-white/5",
+    secondary: "bg-surface/60 backdrop-blur-md border border-border/50 hover:bg-white/5",
     outline: "bg-transparent text-textMain border border-border hover:border-primary hover:text-primary hover:shadow-[0_0_20px_rgba(139,92,246,0.2)]"
   };
 
