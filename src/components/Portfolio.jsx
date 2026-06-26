@@ -16,7 +16,7 @@ const projects = [
     title: 'AWS Water',
     category: 'Engenharia de Tratamento',
     image: '/aws.png',
-    link: 'https://grupoawswater.netlify.app/'
+    link: 'https://www.grupoawswater.com.br/'
   },
   {
     id: 3,
