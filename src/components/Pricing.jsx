@@ -7,8 +7,7 @@ const benefits = [
   'Totalmente Responsivo (Mobile, Tablet, PC)',
   'Otimização para o Google (SEO)',
   'Integração com WhatsApp',
-  'Alta Velocidade de Carregamento',
-  'Certificado de Segurança (SSL)'
+  'Alta Velocidade de Carregamento'
 ];
 
 export const Pricing = () => {
@@ -37,7 +36,7 @@ export const Pricing = () => {
               Mais Vendido
             </div>
             
-            <h3 className="text-2xl font-semibold mb-2">Plano Pro</h3>
+            <h3 className="text-2xl font-semibold mb-2">Site Profissional</h3>
             <p className="text-textMuted mb-6">Tudo o que sua empresa precisa para começar a vender online hoje.</p>
             
             <div className="flex items-baseline gap-2 mb-2">
